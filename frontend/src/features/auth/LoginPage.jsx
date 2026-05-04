@@ -284,16 +284,6 @@ export default function LoginPage() {
                 </form>
               )}
 
-              <div className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-4">
-                <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-                  Test Credentials
-                </p>
-                <div className="space-y-1 text-sm text-slate-300">
-                  <p>Customer: customer1@gmail.test / Customer@12345</p>
-                  <p>Agent: agent@crm.test / Agent@12345</p>
-                  <p>Admin: admin@crm.test / Admin@12345</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>

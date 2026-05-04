@@ -46,6 +46,7 @@ app.use(
         imgSrc: [
           "'self'",
           "data:",
+          "blob:",
           "https://images.unsplash.com",
           "https://res.cloudinary.com",
           "https://global.discourse-cdn.com"
