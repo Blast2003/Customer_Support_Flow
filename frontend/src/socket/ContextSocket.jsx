@@ -31,7 +31,7 @@ export function SocketProvider({ children }) {
       return;
     }
 
-    const socketUrl = import.meta.env.VITE_SOCKET_URL || window.location.origin || "http://localhost:5100";
+    const socketUrl = import.meta.env.VITE_SOCKET_URL || window.location.origin || "https://customer-support-flow.onrender.com";
 
     const newSocket = io(socketUrl, {
       transports: ["websocket"],
